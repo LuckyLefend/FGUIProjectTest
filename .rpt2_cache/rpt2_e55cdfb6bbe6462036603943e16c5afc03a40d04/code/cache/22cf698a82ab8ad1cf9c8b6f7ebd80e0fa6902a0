@@ -1,0 +1,5 @@
+{
+  "code": "export default class ScratchCard {\r\n    constructor() {\r\n        fgui.UIPackage.loadPackage(\"res/UI/ScratchCard\", Laya.Handler.create(this, this.onUILoaded));\r\n    }\r\n    onUILoaded() {\r\n        this._view = fgui.UIPackage.createObject(\"ScratchCard\", \"Main\").asCom;\r\n        this._view.makeFullScreen();\r\n        fgui.GRoot.inst.addChild(this._view);\r\n    }\r\n    destroy() {\r\n        fgui.UIPackage.removePackage(\"ScratchCard\");\r\n    }\r\n}\r\n//# sourceMappingURL=ScratchCard.js.map",
+  "references": [],
+  "map": "{\"version\":3,\"file\":\"ScratchCard.js\",\"sourceRoot\":\"\",\"sources\":[\"../../../src/demo/ScratchCard.ts\"],\"names\":[],\"mappings\":\"AAAA,MAAM,CAAC,OAAO,OAAO,WAAW;IAI5B;QACI,IAAI,CAAC,SAAS,CAAC,WAAW,CAAC,oBAAoB,EAAE,IAAI,CAAC,OAAO,CAAC,MAAM,CAAC,IAAI,EAAE,IAAI,CAAC,UAAU,CAAC,CAAC,CAAC;IACjG,CAAC;IAED,UAAU;QACN,IAAI,CAAC,KAAK,GAAG,IAAI,CAAC,SAAS,CAAC,YAAY,CAAC,aAAa,EAAE,MAAM,CAAC,CAAC,KAAK,CAAC;QACtE,IAAI,CAAC,KAAK,CAAC,cAAc,EAAE,CAAC;QAC5B,IAAI,CAAC,KAAK,CAAC,IAAI,CAAC,QAAQ,CAAC,IAAI,CAAC,KAAK,CAAC,CAAC;IAIzC,CAAC;IAED,OAAO;QACH,IAAI,CAAC,SAAS,CAAC,aAAa,CAAC,aAAa,CAAC,CAAC;IAChD,CAAC;CACJ\"}"
+}

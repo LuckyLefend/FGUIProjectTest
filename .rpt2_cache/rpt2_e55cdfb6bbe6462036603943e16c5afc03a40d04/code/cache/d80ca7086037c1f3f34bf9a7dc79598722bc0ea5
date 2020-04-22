@@ -1,0 +1,7 @@
+{
+  "code": "import Scratch from \"./extension/Scratch\";\r\nexport default class GameConfig {\r\n    constructor() { }\r\n    static init() {\r\n        fgui.UIObjectFactory.setExtension(\"ui://ScratchCard/scratch\", Scratch);\r\n    }\r\n}\r\nGameConfig.width = 1920;\r\nGameConfig.height = 1080;\r\nGameConfig.scaleMode = \"fixedwidth\";\r\nGameConfig.screenMode = \"none\";\r\nGameConfig.alignV = \"top\";\r\nGameConfig.alignH = \"left\";\r\nGameConfig.startScene = \"test/TestScene.scene\";\r\nGameConfig.sceneRoot = \"\";\r\nGameConfig.debug = false;\r\nGameConfig.stat = false;\r\nGameConfig.physicsDebug = false;\r\nGameConfig.exportSceneToJson = true;\r\nGameConfig.init();\r\n//# sourceMappingURL=GameConfig.js.map",
+  "references": [
+    "F:/Work/Project/Laya/Personal/ScratchCard/src/extension/Scratch.ts"
+  ],
+  "map": "{\"version\":3,\"file\":\"GameConfig.js\",\"sourceRoot\":\"\",\"sources\":[\"../../src/GameConfig.ts\"],\"names\":[],\"mappings\":\"AACA,OAAO,OAAO,MAAM,qBAAqB,CAAC;AAI1C,MAAM,CAAC,OAAO,OAAO,UAAU;IAa3B,gBAAc,CAAC;IACf,MAAM,CAAC,IAAI;QAMP,IAAI,CAAC,eAAe,CAAC,YAAY,CAAC,0BAA0B,EAAE,OAAO,CAAC,CAAC;IAC3E,CAAC;;AApBM,gBAAK,GAAQ,IAAI,CAAC;AAClB,iBAAM,GAAQ,IAAI,CAAC;AACnB,oBAAS,GAAQ,YAAY,CAAC;AAC9B,qBAAU,GAAQ,MAAM,CAAC;AACzB,iBAAM,GAAQ,KAAK,CAAC;AACpB,iBAAM,GAAQ,MAAM,CAAC;AACrB,qBAAU,GAAK,sBAAsB,CAAC;AACtC,oBAAS,GAAQ,EAAE,CAAC;AACpB,gBAAK,GAAS,KAAK,CAAC;AACpB,eAAI,GAAS,KAAK,CAAC;AACnB,uBAAY,GAAS,KAAK,CAAC;AAC3B,4BAAiB,GAAS,IAAI,CAAC;AAW1C,UAAU,CAAC,IAAI,EAAE,CAAC\"}"
+}
