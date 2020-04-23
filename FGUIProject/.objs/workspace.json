@@ -1,16 +1,11 @@
 {
 	"backgroundColor": 6710886,
-	"libview.firstColumnWidth": 263,
-	"libview.currentGroup": "",
+	"canvasColor": 10066329,
 	"doc.openedDocs": [],
 	"auxline2": true,
-	"canvasColor": 10066329,
-	"libview.expandedNodes": [
-		"58oxr1hs",
-		"/",
-		"bbc15022",
-		"/"
-	],
+	"libview.currentGroup": "",
+	"libview.twoColumn": false,
+	"libview.expandedNodes": [],
 	"auxline1": true,
-	"libview.twoColumn": false
+	"libview.firstColumnWidth": 283
 }
